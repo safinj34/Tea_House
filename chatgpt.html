@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tea House</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body class="font-[Manrope]">
+
+<!-- ================= HERO ================= -->
+<section class="max-w-7xl mx-auto px-6 py-16 flex flex-col lg:flex-row items-center gap-10">
+  
+  <!-- Left -->
+  <div class="flex-1 text-center lg:text-left">
+    <h1 class="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-[80px]">
+      It's good tea time at The Tea House
+    </h1>
+
+    <p class="mt-4 text-base sm:text-lg md:text-xl opacity-75">
+      Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+    </p>
+
+    <button class="mt-6 bg-gradient-to-r from-red-900 to-orange-400 px-8 py-4 text-white rounded-xl text-lg">
+      Explore More ↗
+    </button>
+  </div>
+
+  <!-- Right -->
+  <div class="flex-1 relative">
+    <img src="./images/banner.png" alt="Tea banner" class="w-full">
+
+    <div class="absolute bottom-4 left-4 bg-white shadow-lg rounded-xl flex items-center px-4 py-2 gap-3">
+      <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+      <div>
+        <h6 class="font-extrabold text-xl">5.00</h6>
+        <p class="text-sm">Trust Pilot Ratings</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED PRODUCTS ================= -->
+<section class="max-w-7xl mx-auto px-6 py-16 text-center">
+  <h2 class="font-extrabold text-3xl sm:text-4xl md:text-5xl mb-6">
+    Our Featured Products
+  </h2>
+
+  <p class="opacity-75 max-w-3xl mx-auto mb-12">
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    
+    <!-- Card -->
+    <div class="shadow-md rounded-xl p-6">
+      <img src="./images/tea-1.png" alt="Milk Tea" class="mx-auto h-32">
+      <h3 class="font-bold mt-4">Milk Tea</h3>
+      <p class="opacity-75 text-sm mt-2">Creamer could be replaced by fresh milk</p>
+    </div>
+
+    <div class="shadow-md rounded-xl p-6">
+      <img src="./images/tea-2.png" alt="Black Tea" class="mx-auto h-32">
+      <h3 class="font-bold mt-4">Black Tea</h3>
+      <p class="opacity-75 text-sm mt-2">Creamer could be replaced by fresh milk</p>
+    </div>
+
+    <div class="shadow-md rounded-xl p-6">
+      <img src="./images/tea-3.png" alt="Lemon Tea" class="mx-auto h-32">
+      <h3 class="font-bold mt-4">Lemon Tea</h3>
+      <p class="opacity-75 text-sm mt-2">Creamer could be replaced by fresh milk</p>
+    </div>
+
+    <div class="shadow-md rounded-xl p-6">
+      <img src="./images/tea-4.png" alt="Green Tea" class="mx-auto h-32">
+      <h3 class="font-bold mt-4">Green Tea</h3>
+      <p class="opacity-75 text-sm mt-2">Creamer could be replaced by fresh milk</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gradient-to-r from-red-100 to-orange-100 py-12 mt-20">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+    
+    <img src="./images/cup.png" alt="Cup">
+
+    <div class="flex items-center gap-4">
+      <p class="font-semibold">Ready to get started?</p>
+      <button class="bg-gradient-to-r from-red-900 to-orange-400 text-white px-6 py-3 rounded-xl">
+        Get Started
+      </button>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
